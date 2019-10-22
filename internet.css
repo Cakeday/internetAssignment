@@ -1,0 +1,192 @@
+*{
+    /* outline: 1px dotted red;  */
+    font-family: sans-serif;
+}
+
+div.wrapper{
+    background-image: linear-gradient(rgb(227,227,227),rgb(255,255,255),rgb(255,255,255));
+    width: 970px;
+    min-height: 90px;
+    margin: 0px auto;
+}
+
+    div.wrapper div.header{
+        width: 100%;
+        min-height: 80px;
+        background-color: white;
+    }
+        div.wrapper div.header img{
+            width: 10%;
+            display: inline-block;
+            margin: 0px 0px -44px 0px;
+        }
+        div.wrapper div.header h1{
+            display: inline-block;
+        }
+            div.wrapper div.header h1 span{
+                color: blue
+            }
+        div.wrapper div.header h2{
+            color: white;
+            background-image: linear-gradient(rgb(50, 100, 150), rgb(90, 130, 170), rgb(50, 100, 150));
+            text-align: left;
+            margin: 0%;
+            font-size: 30px;
+            padding: 7px;
+        }
+
+
+    div.wrapper div.sidebar{
+        display: inline-block;
+        /* background-color: blueviolet; */
+        min-height: 60%;
+        width: 20%;
+    }
+        div.wrapper div.sidebar h3{
+            font-size: 15px;
+        }
+            div.wrapper div.sidebar h3 span{
+                color: red;
+            }
+        div.wrapper div.sidebar h4{
+            font-size: 13px;
+        }
+            div.wrapper div.sidebar h4 span{
+                color:  rgb(90, 130, 170);
+            }
+        div.wrapper div.sidebar #first{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-image: linear-gradient(rgb(90, 130, 170), rgb(50, 100, 150));
+            padding: 12px;
+            border-radius: 3px;
+            box-shadow: 2px 2px 2px darkgray;
+            margin: 8px;
+            color: white;
+        }
+        div.wrapper div.sidebar #second{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-image: linear-gradient(rgb(230, 170, 100), rgb(230, 120, 30));
+            padding: 12px;
+            border-radius: 3px;
+            box-shadow: 2px 2px 2px darkgray;
+            margin: 8px;
+            color: white;
+        }
+        div.wrapper div.sidebar hr{
+            margin: 23px 0px;
+        }
+        div.wrapper div.sidebar div{
+            text-align: center;
+            background-image: url(ad_background.png);
+            padding: 10px 10px;
+        }
+            div.wrapper div.sidebar div h2{
+                color: white;
+            }
+            div.wrapper div.sidebar div img{
+                width: 50%;
+                display: block;
+                margin: 0px auto;
+            }
+            div.wrapper div.sidebar div a{
+                text-decoration: none;
+                background-color: lightblue;
+                border-radius: 4px;
+                padding: 5px 20px;
+                margin: 10px 10px;
+                display: block;
+                color: white;
+            }
+
+
+    div.wrapper div.content{
+        min-height: 10px;
+        width: 77%;
+        display: inline-block;
+        margin: 0px;
+        vertical-align: top;
+        padding-left: 24px;
+    }
+        div.wrapper div.content #home{
+            display: inline-block;
+            vertical-align: top;
+            width: 30px;
+            margin-top: 5px;
+        }
+        div.wrapper div.content #dns{ /* using this to position phone and ul*/
+            vertical-align: top;
+            display: inline-block;
+            margin-right: 53%;
+            margin-top: 5px;
+            padding-top: 9px;
+            text-decoration: none;
+        }
+        div.wrapper div.content #phone{
+            display: inline-block;
+            width: 40px;
+            padding-bottom: 15px;
+            
+        }
+        div.wrapper div.content #info{
+            display: inline-block;
+            list-style-type: none;
+            margin: 0px;
+            padding-left: 0px;
+            text-align: right;
+        }
+        div.wrapper div.content #info span{
+            font-size: 35px;
+            color: rgb(80, 200, 220);
+        }
+        div.wrapper div.content #content-border{
+            /* border-style: solid none none;
+            border-width: 1px;
+            border-color: black; */
+            margin-top: 10px;
+        }
+        div.wrapper div.content .content-lists li{
+            margin: 12px 0px;
+        }
+        div.wrapper div.content h1{
+            color: rgb(50, 100, 150);
+            font-size: 23px; 
+        }
+        div.wrapper div.content #client-server{
+            margin: 0px 220px;
+            width: 35%;
+            text-align: center;
+        }
+        div.wrapper div.content a{
+            color: cadetblue;
+            text-decoration: none;
+        }
+        div.wrapper div.content #footer{
+            display: inline-block;
+            border-style: solid;
+            border-width: 6px;
+            border-color: rgb(50, 130, 221);
+            border-bottom: none;
+            padding: 10px;
+            /* width: 78%; */
+        }
+        div.wrapper div.content #html{
+            display: inline-block;
+            width: 20%;
+            vertical-align: top;
+        }
+        div.wrapper div.content div div{
+            display: inline-block;
+            width: 78%;
+        }
+        div.wrapper div.content div div p{
+            /* width: 50%; */
+            margin: 3px 0px;
+        }
+        
+
+
+
